@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_slider_sliders",
+  "info": {
+    "displayName": "image Slider",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.slider-item",
+      "required": true
+    }
+  }
+}

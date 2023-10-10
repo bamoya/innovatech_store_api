@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "store_infos",
+  "info": {
+    "singularName": "store-info",
+    "pluralName": "store-infos",
+    "displayName": "Store Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

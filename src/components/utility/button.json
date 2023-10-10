@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_utility_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

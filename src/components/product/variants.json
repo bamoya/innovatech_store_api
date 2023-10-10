@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_product_variants",
+  "info": {
+    "displayName": "variants",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "color"
+      ],
+      "required": true,
+      "default": "text"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.value",
+      "required": true,
+      "min": 1
+    }
+  }
+}
